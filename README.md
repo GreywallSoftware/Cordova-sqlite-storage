@@ -1,3 +1,4 @@
+# Forked to provide support for blob types
 # Cross-platform SQLite storage plugin for Cordova/PhoneGap
 
 Native SQLite component with API based on HTML5/[Web SQL (DRAFT) API](http://www.w3.org/TR/webdatabase/) for the following platforms:
