@@ -503,8 +503,8 @@
             bindResult = sqlite3_bind_blob(statement, argIndex, data.bytes, data.length, SQLITE_TRANSIENT);
         }
         else
-#endif
         {
+    #endif
         // always bind text string as UTF-8 (sqlite does internal conversion if necessary):
         NSData *data = [stringArg dataUsingEncoding:NSUTF8StringEncoding];
         bindResult = sqlite3_bind_text(statement, argIndex, data.bytes, (int)data.length, SQLITE_TRANSIENT);
